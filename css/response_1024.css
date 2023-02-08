@@ -1,0 +1,276 @@
+@media (max-width: 1024px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .form .line_flex > *{
+        width: calc(100% / 2 - 15px);
+    }
+
+
+    .main_title{
+        font-size: 40px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont,
+    header.fixed .cont{
+        height: 70px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    header .logo{
+        max-height: 60px;
+    }
+
+    header .wrap_menu{
+        position: fixed;
+        top: 70px;
+        left: 0;
+
+        visibility: hidden;
+        overflow-y: auto;
+
+        width: 100%;
+        max-width: 100%;
+        height: calc(100% - 70px);
+        margin: 0;
+        padding: 15px;
+
+        transition: .2s linear;
+
+        opacity: 0;
+        background: #fff;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    header .wrap_menu.active{
+        visibility: visible;
+
+        opacity: 1;
+    }
+
+    header .mob_tel{
+        display: block;
+
+        margin-left: auto;
+    }
+
+    header .menu{
+        display: block;
+
+        width: 100%;
+    }
+
+    header .menu .item{
+        font-size: 18px;
+    }
+
+    header .menu .item + .item{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    header .menu .item:nth-child(3),
+    header .menu .item:nth-child(4){
+        display: block;
+    }
+
+    header .contact{
+        margin-top: 30px;
+    }
+
+    header .contact .tel{
+        margin-right: 30px;
+    }
+
+    header .contact .tel a{
+        font-size: 18px;
+    }
+
+    header .contact .tel a .icon{
+        margin-right: 13px;
+    }
+
+    .mob_menu_link{
+        display: block;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section{
+        height: 624px;
+        padding: 60px 0 60px;
+    }
+
+    .first_section .data{
+        max-width: 430px;
+    }
+
+    .first_section .title{
+        font-size: 40px;
+    }
+
+    .first_section .desk{
+        font-size: 30px;
+    }
+
+
+    .sect_form .form .consultant{
+        width: 100%;
+        margin-top: 20px;
+
+        order: 5;
+    }
+
+    .sect_form .form .agree{
+        margin-top: 0;
+
+        align-self: center;
+    }
+
+
+    .videoconnection .grid{
+        --items: 2;
+    }
+
+    .videoconnection .item{
+        padding: 28px;
+    }
+
+    .videoconnection .item .data{
+        margin-top: 28px;
+        padding: 0;
+    }
+
+
+    .replacement .time_economy .data{
+        width: calc(50% - 20px);
+        max-width: 100%;
+    }
+
+    .replacement .time_economy .wrap_video{
+        width: calc(50% - 20px);
+    }
+
+    .replacement .time_economy .wrap_video:before{
+        display: none;
+    }
+
+
+    .sect_complect .box{
+        padding: 30px 0 28px;
+    }
+
+    .sect_complect .box .pad{
+        padding: 0 30px;
+    }
+
+    .sect_complect .feature{
+        margin-bottom: 25px;
+
+        --items: 2;
+    }
+
+    .sect_complect .line_offer .offer_desc{
+        font-size: 20px;
+    }
+
+    .sect_complect .blocks .block{
+        padding: 30px;
+    }
+
+
+    .sect_quiz .block_form .pad{
+        padding: 30px;
+    }
+
+
+    .production_examples .wrap_title .director{
+        width: 335px;
+        padding: 30px 25px;
+    }
+
+    .production_examples .wrap_title .main_title{
+        width: calc(100% - 375px);
+    }
+
+    .production_examples .line_box{
+        margin-top: 35px;
+    }
+
+    .production_examples .line_box .block_production{
+        width: 100%;
+    }
+
+    .production_examples .line_box .block_task{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+    .hard_systems .box:before{
+        display: none;
+    }
+
+    .hard_systems .grid{
+        --items: 3;
+        justify-content: center;
+    }
+
+    .hard_systems .item .number{
+        margin-top: 20px;
+    }
+
+    .hard_systems .item .desc{
+        margin-top: 15px;
+    }
+
+
+    .sect_clients .swiper .slider-button-prev{
+        left: -10px;
+    }
+
+    .sect_clients .swiper .slider-button-next{
+        right: -10px;
+    }
+
+
+    .sertificates .slide a .img{
+        padding: 20px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .top .logo{
+        width: 190px;
+        margin-right: 20px;
+    }
+
+    footer .top .logo2{
+        width: 140px;
+        margin-right: 20px;
+    }
+
+    footer .contact .tel{
+        margin-right: 20px;
+    }
+
+    footer .menu{
+        flex-direction: column;
+
+        align-items: center;
+        align-content: center;
+    }
+
+    footer .menu .item + .item{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}

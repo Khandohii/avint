@@ -1,0 +1,128 @@
+@media (max-width: 479px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .form .submit_btn{
+        padding: 0 15px;
+    }
+
+
+    .main_title{
+        font-size: 30px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .contact{
+        flex-direction: column;
+    }
+
+    header .contact .tel{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section{
+        height: 540px;
+        padding-top: 40px;
+    }
+
+    .first_section .title{
+        font-size: 26px;
+    }
+
+    .first_section .desk{
+        font-size: 22px;
+    }
+
+
+    .partners_slider{
+        margin-top: 92px;
+    }
+
+
+    .sect_form .box{
+        padding: 30px;
+    }
+
+    .sect_form .title{
+        font-size: 24px;
+    }
+
+
+    .videoconnection .grid{
+        --items: 1;
+    }
+
+    .videoconnection .item{
+        padding: 28px;
+    }
+
+    .videoconnection .item .data{
+        margin-top: 28px;
+        padding: 0;
+    }
+
+
+    .replacement .grid{
+        --items: 1;
+    }
+
+    .replacement .item .icon{
+        margin-bottom: 15px;
+    }
+
+
+    .sect_complect .title{
+        font-size: 26px;
+    }
+
+    .sect_complect .title br{
+        display: none;
+    }
+
+
+    .sect_clients .title{
+        font-size: 26px;
+    }
+
+
+    .sect_advantages .grid{
+        --items: 1;
+    }
+
+
+    .faq .accordion .item .title{
+        font-size: 18px;
+    }
+
+
+    .sect_contacts .box{
+        padding: 30px;
+    }
+
+    .sect_contacts .line_flex .line{
+        width: 100%;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .contact{
+        flex-direction: column;
+    }
+
+    footer .contact .tel{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .modal_title{
+        font-size: 28px;
+    }
+}

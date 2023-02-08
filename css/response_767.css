@@ -1,0 +1,300 @@
+@media (max-width: 767px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .form .line_flex > *{
+        width: 100%;
+    }
+
+
+    .text_block h2{
+        font-size: 23px;
+    }
+
+
+    .main_title{
+        font-size: 38px;
+    }
+
+
+    .radios{
+        margin-left: -25px;
+    }
+
+    .radios .radio{
+        margin-left: 25px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section{
+        height: 590px;
+        padding-top: 50px;
+    }
+
+    .first_section .data{
+        max-width: 300px;
+    }
+
+    .first_section .title{
+        font-size: 30px;
+    }
+
+    .first_section .desk{
+        font-size: 25px;
+    }
+
+
+    .sect_form .form .agree{
+        margin-top: 20px;
+    }
+
+
+    .replacement .grid{
+        --items: 2;
+    }
+
+    .replacement .time_economy{
+        margin-top: 50px;
+    }
+
+    .replacement .time_economy .data{
+        width: 100%;
+    }
+
+    .replacement .time_economy .wrap_video{
+        width: 100%;
+        max-width: 575px;
+        margin-top: 30px;
+    }
+
+
+    .sect_complect .columns .col_l{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .sect_complect .columns .col_r{
+        width: 100%;
+        margin-bottom: 33px;
+
+        order: -1;
+    }
+
+    .sect_complect .blocks .block{
+        width: 100%;
+    }
+
+    .sect_complect .blocks .block:nth-child(even){
+        border-left: none;
+    }
+
+    .sect_complect .blocks .block:after,
+    .sect_complect .blocks .block:nth-child(2n+1):after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        content: '';
+
+        background: #e8e8e8;
+    }
+
+    .sect_complect .line_offer{
+        margin-top: 30px;
+    }
+
+    .sect_complect .line_offer .link_btn{
+        margin-right: 0;
+    }
+
+    .sect_complect .line_offer .offer_desc{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .sect_complect .blocks .block .wrap_img{
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .sect_complect .blocks .block .wrap_img .img{
+        position: relative;
+
+        display: block;
+
+        height: auto;
+    }
+
+
+    .videoconnection .item{
+        padding: 0;
+    }
+
+    .videoconnection .item .data{
+        margin-top: 0;
+        padding: 28px;
+    }
+
+
+    .sect_advantages .grid{
+        --items: 2;
+        justify-content: center;
+    }
+
+
+    .hard_systems .grid{
+        --items: 2;
+    }
+
+
+    .sertificates .swiper{
+        margin-top: 30px;
+    }
+
+    .sertificates .slide a .img{
+        padding: 15px;
+    }
+
+
+    .faq .main_title{
+        margin-bottom: 30px;
+    }
+
+    .faq .accordion .item .title{
+        padding: 20px;
+    }
+
+    .faq .accordion .item .title .arrow{
+        margin-right: 15px;
+    }
+
+    .faq .accordion .item .data{
+        padding: 24px 30px;
+    }
+
+
+    .sect_contacts{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 50px;
+        padding: 0;
+
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .sect_contacts .map{
+        position: relative;
+
+        height: 300px;
+        margin-top: 30px;
+
+        order: 5;
+    }
+
+    .sect_contacts .map:before,
+    .sect_contacts .map:after{
+        height: 30px;
+    }
+
+    .sect_contacts .box{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .gallery{
+        margin-top: 50px;
+    }
+
+
+    .production_examples .wrap_title .main_title{
+        width: 100%;
+    }
+
+    .production_examples .wrap_title .director{
+        margin-top: 30px;
+        filter: none;
+        box-shadow: 0px 0px 33px rgba(0, 0, 0, .1);
+    }
+
+    .production_examples .wrap_title .director:before{
+        top: -44px;
+        right: auto;
+        left: 15px;
+
+        transform: rotate(90deg);
+    }
+
+    .production_examples .line_box .block_production{
+        padding: 30px;
+    }
+
+    .production_examples .line_box .block_task{
+        padding: 30px;
+    }
+
+    .production_examples .block_task .btns .link_btn{
+        width: 100%;
+    }
+
+    .production_examples .block_task .btns .link_btn + .link_btn{
+        margin-top: 15px;
+    }
+
+
+    .sect_clients .title{
+        font-size: 30px;
+
+        margin-bottom: 20px;
+    }
+
+    .sect_clients .slide{
+        height: 80px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .top{
+        flex-direction: column;
+
+        align-items: center;
+        align-content: center;
+    }
+
+    footer .top .logo{
+        margin-right: 0;
+    }
+
+    footer .top .logo2{
+        width: 204px;
+        margin-top: 25px;
+        margin-right: 0;
+    }
+
+    footer .contact{
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    footer .menu{
+        margin-top: 25px;
+    }
+
+
+    .modal{
+        padding: 30px;
+    }
+}
