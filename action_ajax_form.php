@@ -79,7 +79,7 @@ if (isset($_POST["phone"])) {
 	}
 
 
-	$adminEmail = 'vanek1109@gmail.com';
+	$adminEmail = 'test@test.com';
 	$message = "{$name}Телефон: {$phone}. "
 	. $service
 	. $service_name
